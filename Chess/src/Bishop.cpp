@@ -33,7 +33,3 @@ bool Bishop::is_legel_movement(const std::string &input, const std::string &boar
         return false;
     return true;
 }
-
-char Bishop::get_type() {
-    return type;
-}
