@@ -23,6 +23,3 @@ bool Knight::is_legel_movement(const string &input, const string &board, bool is
     return true;
 }
 
-char Knight::get_type() {
-    return type;
-}
