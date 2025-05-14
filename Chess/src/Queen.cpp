@@ -35,6 +35,4 @@ bool Queen::is_legel_movement(const string &input, const string &board, bool isW
     return true;
 }
 
-char Queen::get_type() {
-    return type;
-}
+
