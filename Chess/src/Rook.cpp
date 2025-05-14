@@ -42,6 +42,3 @@ bool Rook::is_legel_movement(const string &input, const string &board, bool isWh
 }
 
 
-char Rook::get_type() {
-   return type;
-}
