@@ -3,13 +3,10 @@
 
 #include "Piece.h"
 class Knight : public Piece{
-
-private:
-    char type;
 public:
     Knight(char t) : type(t) {}
     bool is_legel_movement(const string &input, const string &board, bool isWhiteTurn) override;
-    char get_type() override;
+    
 
 };
 
